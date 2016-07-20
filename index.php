@@ -30,7 +30,14 @@
 				<span for="">hora: 22:10:29</span>
 			</div>
 		</div>
-
+		<div class="row">
+			<div class="contenido">
+				
+			</div>
+		</div>
+		<div class="row footer">
+			<p class="text-center">Derechos reservados a Pianoforte. Copyright <br> 2006-2007</p>
+		</div>
 	</div>
 <!-- 	<script src="js/jquery-2.2.0.min.js"></script> -->
 </body>
