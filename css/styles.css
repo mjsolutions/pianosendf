@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #996600;
+
+}
+
+/*COLUMNS*/
+.col-center {
+	float: none;
+	margin: 0 auto;
+}
