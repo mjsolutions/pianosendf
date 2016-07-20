@@ -16,8 +16,20 @@
 <body class="container-fluid">
 
 	<div class="col-md-7 col-center wrap">
-		<img src="images/header1.jpg" class="img-responsive" id="img-header1" alt="">
-		<img src="images/header2.jpg" class="img-responsive" id="img-header1" alt="">
+		<div class="row header">
+			<img src="images/header1.jpg" class="img-responsive" id="img-header1" alt="">
+			<img src="images/header2.jpg" class="img-responsive" id="img-header1" alt="">
+			<div id="menu">
+				<a href="#">Home</a>
+				<a href="#">Empresa</a>
+				<a href="#">Servicios</a>
+				<a href="#">Trabajos</a>
+				<a href="#">Ubicación</a>
+				<a href="#">Contacto</a>
+				<a href="#">Catálogo</a>
+				<span for="">hora: 22:10:29</span>
+			</div>
+		</div>
 
 	</div>
 <!-- 	<script src="js/jquery-2.2.0.min.js"></script> -->
