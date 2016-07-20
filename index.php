@@ -15,8 +15,10 @@
 </head>
 <body class="container-fluid">
 
-	<div class="col-md-6 col-center wrap">
-		
+	<div class="col-md-7 col-center wrap">
+		<img src="images/header1.jpg" class="img-responsive" id="img-header1" alt="">
+		<img src="images/header2.jpg" class="img-responsive" id="img-header1" alt="">
+
 	</div>
 <!-- 	<script src="js/jquery-2.2.0.min.js"></script> -->
 </body>
