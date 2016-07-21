@@ -65,7 +65,7 @@
             		<label for="email">Comentario:</label>
                 <textarea  class="form-control" style="height: 130px;" placeholder="Escribenos tu mensaje..." name="mensaje" id="mensaje" required></textarea>
               </div>
-              <input type="submit" class="btn btn-link red" value="Enviar correo" id="enviar" style="float:right">
+              <input type="submit" class="btn btn-link red pull-right" value="Enviar correo" id="enviar" >
           </form>
           <div class="clearfix"></div>
           <div class="row margin-top10 margin-bottom10" id="respuesta"></div>
