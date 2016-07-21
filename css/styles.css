@@ -126,6 +126,9 @@ body {
 .padding-left25 {
 	padding-left: 25px;
 }
+.padding-left50 {
+	padding-left: 50px;
+}
 .padding-right12 {
 	padding-right: 12px;
 }
@@ -175,6 +178,11 @@ body {
 
 .lista li {
 	list-style-type: none;
+}
+
+.pagos li {
+	list-style-type: circle;
+	padding: 10px 5px;
 }
 /*COLUMNS*/
 .col-center {

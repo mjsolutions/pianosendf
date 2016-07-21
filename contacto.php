@@ -43,12 +43,13 @@
 					<form class="form-horizontal" action="contacto.php" id="contacto" method="post">
               <div class="form-group">
             		<label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" placeholder="Tu Nombre..." maxlength="40" id="nombre" name="nombre"/>
+                <input type="text" class="form-control" placeholder="Tu Nombre..." maxlength="40" id="nombre" name="nombre" required/>
               </div>
               <div class="form-group">
             		<label for="email">Correo electrónico:</label>
-                <input type="email" class="form-control" placeholder="Tu Email..." maxlength="40" name="email" id="email" />
+                <input type="email" class="form-control" placeholder="Tu Email..." maxlength="40" name="email" id="email" required/>
               </div>
+
               <div class="form-group">
             		<label for="email">Departamento o Area que desea enviar su correo:</label>
                 <select class="form-control" name="dpto" id="dpto">
@@ -62,10 +63,12 @@
               </div>
               <div class="form-group">
             		<label for="email">Comentario:</label>
-                <textarea  class="form-control" style="height: 130px;" placeholder="Escribenos tu mensaje..." name="mensaje" id="mensaje"></textarea>
+                <textarea  class="form-control" style="height: 130px;" placeholder="Escribenos tu mensaje..." name="mensaje" id="mensaje" required></textarea>
               </div>
               <input type="submit" class="btn btn-link red" value="Enviar correo" id="enviar" style="float:right">
           </form>
+          <div class="clearfix"></div>
+          <div class="row margin-top10 margin-bottom10" id="respuesta"></div>
 
 				</div>
 					
@@ -73,5 +76,31 @@
 			<!-- Fin del contenido principal -->
 		</div>
 		<?php include "footer.php"; ?>
+
+		<script type="text/javascript" src="js/jquery-2.2.0.min.js" charset="utf-8"></script>
+		<script>
+		$(document).ready(function(){
+			$("form").submit(function(){
+				$('.btn-link').attr("disabled", "disabled");
+		    $.ajax({
+		      url:"ajax.php?opcion=1",
+		      type: "POST",
+		      data: $(this).serialize(),
+		      success: function(data){
+		        $('#respuesta').html(data);
+		        $('.btn-link').attr("disabled", false);
+		        $('form').each(function(){
+		          this.reset();
+		        });
+		      },
+		      error: function(data){
+		        $('#respuesta').html(data);
+		        $('.btn-link').attr("disabled", false);
+		      }
+		    });
+		    return false;
+			});
+		});
+		</script>
 </body>
 </html>
