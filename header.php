@@ -16,7 +16,7 @@
 			<div id="menu">
 				<a href="index.php">Home</a>
 				<a href="empresa.php">Empresa</a>
-				<a href="#">Servicios</a>
+				<a href="servicios.php">Servicios</a>
 				<a href="#">Trabajos</a>
 				<a href="#">Ubicación</a>
 				<a href="#">Contacto</a>

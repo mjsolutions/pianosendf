@@ -1,5 +1,5 @@
 <div class="row footer">
-			<p class="text-center">Derechos reservados a Pianoforte. Copyright <br> 2006-2007</p>
+			<p class="text-center">Derechos reservados a Pianoforte. Copyright <br> <?php echo date("Y"); ?></p>
 		</div>
 	</div>
 <script>
