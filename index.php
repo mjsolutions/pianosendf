@@ -26,7 +26,7 @@
 						<br>
 						<p class="nomargin font12">Contamos con las mejores marcas de pianos al precio más bajo del mercado. El piano que usted busca nosotros lo tenemos</p>
 						<p class="nomargin font12">
-							<a href="" class="red">Visite nuestro catálogo, con más de 200 opciones!</a>
+							<a href="http://musicalpianoforte.net/catalogo.php" class="red">Visite nuestro catálogo, con más de 200 opciones!</a>
 						</p>
 					</div>
 

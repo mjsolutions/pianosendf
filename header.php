@@ -21,7 +21,7 @@
 				<a href="trabajos.php">Trabajos</a>
 				<a href="ubicacion.php">Ubicación</a>
 				<a href="contacto.php">Contacto</a>
-				<a href="#">Catálogo</a>
+				<a href="http://musicalpianoforte.net/catalogo.php">Catálogo</a>
 				<span id="reloj"></span>
 			</div>
 		</div>

@@ -25,12 +25,12 @@
 
 						<div class="row margin-top10">
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00193.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00193.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00193.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>
 							</div>
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00194.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00194.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00194.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>				
 							</div>
@@ -38,12 +38,12 @@
 
 						<div class="row margin-top10">
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00203.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00203.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00203.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>
 							</div>
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00377.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00377.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00377.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>				
 							</div>
@@ -51,12 +51,12 @@
 
 						<div class="row margin-top10">
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00381.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00381.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00381.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>
 							</div>
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00477.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00477.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00477.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>				
 							</div>
@@ -64,12 +64,12 @@
 
 						<div class="row margin-top10">
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00394.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00394.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00394.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>
 							</div>
 							<div class="col-md-4 col-md-offset-1">
-								<a href="images/trabajos/DSC00175.jpg" rel="prettyPhoto[gallery1]">
+								<a href="images/trabajos/DSC00175.jpg" rel="musicalPianoforte[gallery1]">
 									<img src="images/trabajos/DSC00175.jpg" alt="Musical Pianoforte" class="img-responsive">
 								</a>				
 							</div>
@@ -88,7 +88,7 @@
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js" charset="utf-8"></script>
 	<script >
 	jQuery(document).ready(function(){
-		jQuery("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'facebook',slideshow:5000, autoplay_slideshow: true, social_tools: ''});
+		jQuery("a[rel^='musicalPianoforte']").prettyPhoto({animation_speed:'normal',theme:'facebook',slideshow:5000, autoplay_slideshow: true, social_tools: ''});
 		
 	});
 	</script>

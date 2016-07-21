@@ -21,7 +21,7 @@
 
 					<p class="nomargin">Contamos con <b>cómodas formas de pago</b> que se adapten a sus requerimientos y que pueden ser:</p>
 					
-					<ul class="padding-left50 margin-top10 margin-bottom10 pagos">
+					<ul class="padding-left50 margin-top10 margin-bottom10 list-circle">
 						<li> Pago de contado.</li>
 						<li> Depósito bancario.</li>
 						<li> Pague con su tarjeta de debito o crédito <b>VISA, VISA ELECTRON o MASTERCARD</b> (excepto “American Express”) su pago se puede realizar desde la comodidad de su domicilio con solo una llamada telefónica teniendo su tarjeta a la mano.</li>

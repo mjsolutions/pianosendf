@@ -180,9 +180,12 @@ body {
 	list-style-type: none;
 }
 
-.pagos li {
+.list-circle li {
 	list-style-type: circle;
 	padding: 10px 5px;
+}
+.list-circle-np li {
+	list-style-type: circle;
 }
 /*COLUMNS*/
 .col-center {
