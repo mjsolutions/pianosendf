@@ -19,8 +19,8 @@
 				<a href="empresa.php">Empresa</a>
 				<a href="servicios.php">Servicios</a>
 				<a href="trabajos.php">Trabajos</a>
-				<a href="#">Ubicación</a>
-				<a href="#">Contacto</a>
+				<a href="ubicacion.php">Ubicación</a>
+				<a href="contacto.php">Contacto</a>
 				<a href="#">Catálogo</a>
 				<span id="reloj"></span>
 			</div>

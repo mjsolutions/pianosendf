@@ -114,11 +114,17 @@ body {
 .padding-top3 {
 	padding-top: 3px;
 }
+.padding-top15 {
+	padding-top: 15px;
+}
 .padding-left3 {
 	padding-left: 3px;
 }
 .padding-left12 {
 	padding-left: 12px;
+}
+.padding-left25 {
+	padding-left: 25px;
 }
 .padding-right12 {
 	padding-right: 12px;
@@ -136,6 +142,9 @@ body {
 }
 .padding-bottom10 {
 	padding-bottom: 10px;
+}
+.padding-bottom15 {
+	padding-bottom: 15px;
 }
 /*MARGINS*/
 .nomargin {
