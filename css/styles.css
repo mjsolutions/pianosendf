@@ -106,6 +106,9 @@ body {
 .underline {
 	border-bottom: 1px solid #B21E12;
 }
+.underline-gray {
+	border-bottom: 1px solid #ccc;
+}
 
 /*PADDINGS*/
 .nopadding {
@@ -186,6 +189,11 @@ body {
 }
 .list-circle-np li {
 	list-style-type: circle;
+}
+/*HEIGHTS*/
+.max-height185{
+	max-height: 185px;
+	overflow: hidden;
 }
 /*COLUMNS*/
 .col-center {
