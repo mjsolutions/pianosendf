@@ -7,9 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body class="container-fluid" onload="muestraReloj()">
+<body class="container" onload="muestraReloj()">
 
-	<div class="col-md-7 col-center wrap">
+	<div class="col-md-9 col-center wrap">
 		<!-- Menu -->
 		<div class="row header">
 			<img src="images/header1.jpg" class="img-responsive" id="img-header1" alt="">
