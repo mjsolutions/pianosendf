@@ -41,32 +41,32 @@
 					<p class="text-center nomargin red"><b>Cel. (443) 145-83-51</b></p><br>
 					
 					<form class="form-horizontal" action="contacto.php" id="contacto" method="post">
-              <div class="form-group">
-            		<label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" placeholder="Tu Nombre..." maxlength="40" id="nombre" name="nombre" required/>
-              </div>
-              <div class="form-group">
-            		<label for="email">Correo electrónico:</label>
-                <input type="email" class="form-control" placeholder="Tu Email..." maxlength="40" name="email" id="email" required/>
-              </div>
+		              <div class="form-group">
+		            	<label for="nombre">Nombre:</label>
+		                <input type="text" class="form-control" placeholder="Tu Nombre..." maxlength="40" id="nombre" name="nombre" required/>
+		              </div>
+		              <div class="form-group">
+		            	<label for="email">Correo electrónico:</label>
+		                <input type="email" class="form-control" placeholder="Tu Email..." maxlength="40" name="email" id="email" required/>
+		              </div>
 
-              <div class="form-group">
-            		<label for="email">Departamento o Area que desea enviar su correo:</label>
-                <select class="form-control" name="dpto" id="dpto">
-                  <option value="direccion">Dirección</option>
-                  <option value="gerencia">Gerencia</option>
-                  <option value="ventas">Ventas</option>
-                  <option value="mercadotecnia">Mercadotecnia</option>
-                  <option value="taller">Taller</option>
-                  <option value="sugerencias">Sugerencias</option>
-                </select>
-              </div>
-              <div class="form-group">
-            		<label for="email">Comentario:</label>
-                <textarea  class="form-control" style="height: 130px;" placeholder="Escribenos tu mensaje..." name="mensaje" id="mensaje" required></textarea>
-              </div>
-              <input type="submit" class="btn btn-link red pull-right" value="Enviar correo" id="enviar" >
-          </form>
+		              <div class="form-group">
+		            	<label for="dpto">Departamento o Area que desea enviar su correo:</label>
+		                <select class="form-control" name="dpto" id="dpto">
+		                  <option value="direccion">Dirección</option>
+		                  <option value="gerencia">Gerencia</option>
+		                  <option value="ventas">Ventas</option>
+		                  <option value="mercadotecnia">Mercadotecnia</option>
+		                  <option value="taller">Taller</option>
+		                  <option value="sugerencias">Sugerencias</option>
+		                </select>
+		              </div>
+		              <div class="form-group">
+		            	<label for="mensaje">Comentario:</label>
+		                <textarea  class="form-control" style="height: 130px;" placeholder="Escribenos tu mensaje..." name="mensaje" id="mensaje" required></textarea>
+		              </div>
+		              <input type="submit" class="btn btn-link red pull-right" value="Enviar correo" id="enviar" >
+		          </form>
           <div class="clearfix"></div>
           <div class="row margin-top10 margin-bottom10" id="respuesta"></div>
 

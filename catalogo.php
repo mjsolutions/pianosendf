@@ -24,8 +24,8 @@
 
 						<?php 
 							include "conexion.php";
-							$res = mysqli_query($con, "SELECT * FROM catalogo WHERE tipo = 'cola'");
-							while($aux=mysqli_fetch_array($res)){
+							$resultado = $mysqli->query("SELECT * FROM catalogo WHERE tipo = 'cola'");
+							while($aux=$resultado->fetch_array(MYSQLI_ASSOC)){
 								echo "<div class='row margin-top10'>
 										<div class='max-height185'>
 											<a href='http://musicalpianoforte.net/".$aux['ruta']."' rel='musicalPianoforte[gallery1]''>
@@ -48,8 +48,8 @@
 
 						<?php 
 							include "conexion.php";
-							$res = mysqli_query($con, "SELECT * FROM catalogo WHERE tipo = 'vertical'");
-							while($aux=mysqli_fetch_array($res)){
+							$resultado = $mysqli->query("SELECT * FROM catalogo WHERE tipo = 'vertical'");
+							while($aux=$resultado->fetch_array(MYSQLI_ASSOC)){
 								echo "<div class='row margin-top10'>
 										<div class='max-height185'>
 											<a href='http://musicalpianoforte.net/".$aux['ruta']."' rel='musicalPianoforte[gallery2]''>
