@@ -35,16 +35,16 @@
 
 					<div class="row ">
 
-						<div class="col-center col-md-6">
-							<div class="col-md-4">
+						<div class="col-center col-md-6 col-sm-6 col-xs-8">
+							<div class="col-md-4 col-sm-4 col-xs-4">
 								<img src="images/visa.jpg" alt="" class="img-responsive">
 							</div>
 							
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-4">
 								<img src="images/mc.jpg" alt="" class="img-responsive">
 							</div>
 							
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-4">
 								<img src="images/ve.jpg" alt="" class="img-responsive">
 							</div>
 						</div>

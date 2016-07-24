@@ -38,8 +38,8 @@
 
 					<div class="row ">
 
-						<div class="col-center col-md-7">
-							<img src="images/trans.gif" alt="" class="img-responsive">							
+						<div class="col-center col-md-7 col-sm-7 col-xs-7">
+							<img src="images/trans.gif" alt="" class="img-responsive col-center">							
 						</div>
 
 					</div>

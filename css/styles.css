@@ -23,7 +23,7 @@ body {
 	/*border-bottom: 6px solid #220700;*/
 }
 
-#menu {
+.menu {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
@@ -33,12 +33,12 @@ body {
 	padding-bottom: 10px;
 }
 
-#menu > a {
+.menu > a {
 	font-size: 1.2rem;
 	color: #fff;
 }
 
-#menu > span {
+.menu > span {
 	font-size: 1.1rem;
 	color: #fff;
 }
@@ -78,13 +78,19 @@ body {
 	color: #fff;
 	font-size: 1.2rem;
 }
-/*TEXT COLORS*/
+/*COLORS*/
 
 .red {
-	color: #B21E12;
+	color: #B21E12!important;
 }
 .red:hover{
 	color: #B21E12;
+}
+.bg-yellow {
+	background: #996600;
+}
+.nobg{
+	background-color: transparent;
 }
 
 /*TEXT SIZES*/
@@ -174,7 +180,10 @@ body {
 .margin-bottom10 {
 	margin-bottom: 10px;
 }
-/*MARGINS*/
+.margin-bottom30 {
+	margin-bottom: 30px;
+}
+/*GENERAL*/
 .lista {
 	padding: 0 8px;
 }

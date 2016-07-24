@@ -21,8 +21,8 @@
 
 					<p class="nomargin">Estamos a sus órdenes en la hermosa ciudad de <b>Morelia, Michoacán</b> que se ubica a solo <b>3 horas</b> de la capital del país.</p>
 
-					<div class="col-md-6 padding-top15 padding-bottom15 col-center">
-						<img src="images/catedral_de_morelia_por_la_noche.jpg" alt="" class="img-responsive">
+					<div class="col-md-6 col-sm-6 col-xs-6 padding-top15 padding-bottom15 col-center">
+						<img src="images/catedral_de_morelia_por_la_noche.jpg" alt="" class="img-responsive col-center">
 					</div>
 					
 					<h4 class="text-center nomargin ">

@@ -19,20 +19,20 @@
 				
 				<div class="col-md-12 nopadding margin-bottom50 margin-top25 font13">
 
-					<div class="col-md-6 padding-left25">
+					<div class="col-md-6 col-sm-6 col-xs-6 padding-left25">
 						<h5 class="text-center nomargin padding-tb8 red underline"><b>Pianos de Cola</b></h5>
 
 						<?php 
-							include "conexion.php";
-							$resultado = $mysqli->query("SELECT * FROM catalogo WHERE tipo = 'cola'");
-							while($aux=$resultado->fetch_array(MYSQLI_ASSOC)){
+							include "conexion2.php";
+							$resultado = mysqli_query($con,"SELECT * FROM catalogo WHERE tipo = 'cola'");
+							while($aux=mysqli_fetch_array($resultado)) {
 								echo "<div class='row margin-top10'>
 										<div class='max-height185'>
 											<a href='http://musicalpianoforte.net/".$aux['ruta']."' rel='musicalPianoforte[gallery1]''>
 												<img src='http://musicalpianoforte.net/".$aux['ruta']."' alt='".$aux['id']."' class='img-responsive'>
 											</a>
 										</div>
-										<p class='text-center padding-top3 padding-bottom3 nomargin'>".str_replace("rn", "", str_replace("<br />", "\n", utf8_encode(stripslashes($aux['descripcion']))))."</p>
+										<p class='text-center padding-top3 padding-bottom3 nomargin'>".str_replace("rn", "", utf8_encode(stripslashes($aux['descripcion'])))."</p>
 										<p class='text-center nomargin red'>$ ".number_format($aux['costo'], 2, '.', ',')."</p>
 										<p class='text-center nomargin'>Cel. (443) 145-83-51</p>
 										<p class='text-center nomargin underline-gray padding-bottom3'><a href='mailto:".$aux['contacto']."' class='red'>".$aux['contacto']."</a></p>
@@ -43,20 +43,20 @@
 
 					</div>
 
-					<div class="col-md-6 padding-left25">
+					<div class="col-md-6 col-sm-6 col-xs-6 padding-left25">
 						<h5 class="text-center nomargin padding-tb8 red underline margin-bottom10"><b>Pianos Verticales</b></h5>
 
 						<?php 
 							include "conexion.php";
-							$resultado = $mysqli->query("SELECT * FROM catalogo WHERE tipo = 'vertical'");
-							while($aux=$resultado->fetch_array(MYSQLI_ASSOC)){
+							$resultado = mysqli_query($con,"SELECT * FROM catalogo WHERE tipo = 'vertical'");
+							while($aux=mysqli_fetch_array($resultado)) {
 								echo "<div class='row margin-top10'>
 										<div class='max-height185'>
 											<a href='http://musicalpianoforte.net/".$aux['ruta']."' rel='musicalPianoforte[gallery2]''>
 												<img src='http://musicalpianoforte.net/".$aux['ruta']."' alt='".$aux['id']."' class='img-responsive'>
 											</a>
 										</div>
-										<p class='text-center padding-top3 padding-bottom3 nomargin'>".str_replace("rn", "", str_replace("<br />", "\n", utf8_encode(stripslashes($aux['descripcion']))))."</p>
+										<p class='text-center padding-top3 padding-bottom3 nomargin'>".str_replace("rn", "", utf8_encode(stripslashes($aux['descripcion'])))."</p>
 										<p class='text-center nomargin red'>$ ".number_format($aux['costo'], 2, '.', ',')."</p>
 										<p class='text-center nomargin'>Cel. (443) 145-83-51</p>
 										<p class='text-center nomargin underline-gray padding-bottom3'><a href='mailto:".$aux['contacto']."' class='red'>".$aux['contacto']."</a></p>

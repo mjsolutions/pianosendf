@@ -14,7 +14,7 @@
 		<div class="row header">
 			<img src="images/header1.jpg" class="img-responsive" id="img-header1" alt="">
 			<img src="images/header2.jpg" class="img-responsive" id="img-header1" alt="">
-			<div id="menu">
+			<div class="menu">
 				<a href="index.php">Home</a>
 				<a href="empresa.php">Empresa</a>
 				<a href="servicios.php">Servicios</a>
